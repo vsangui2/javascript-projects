@@ -27,13 +27,13 @@
 let newStr = "LaunchCode";
 let newArray = [1, 5, 'LC101', 'blue', 42];
 
-Construct ``for`` loops to accomplish the following tasks:
-  a. Print each element of the array to a new line.
+// Construct ``for`` loops to accomplish the following tasks:
+//   a. Print each element of the array to a new line.
 
 for (i=0; i < newArray.length; i ++){
 console.log(newArray[i]);
 }
-  b. Print each character of the string - in reverse order - to a new line.
+//   b. Print each character of the string - in reverse order - to a new line.
 
 for (let i = newStr.length -1; i >=0; i--){
   console.log(newStr[i]);
