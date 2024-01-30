@@ -7,4 +7,23 @@ let nums3 = [200, 5, 4, 10, 8, 5, -3.3, 4.4, 0];
 
 //Using one of the test arrays as the argument, call your function inside the console.log statement below.
 
-console.log(/* your code here */);
+// console.log(/* your code here */);
+
+function sortedArray(arr) {
+   return arr.sort((a,b) => a-b);
+}
+// console.log(sortedArray(nums1));
+// console.log(sortedArray(nums2));
+// console.log(sortedArray(nums3));
+
+function minValue(a){
+    let min =a[0];
+    for(i=1;i<a.length;i++){
+        if (min>a[i])
+        min=a[i]
+    }
+    return min;
+}
+console.log(sortedArray(nums1),minValue(nums1));
+console.log(sortedArray(nums2),minValue(nums2));
+console.log(sortedArray(nums3),minValue(nums3));
