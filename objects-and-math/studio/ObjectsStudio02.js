@@ -1,5 +1,8 @@
 // Code your orbitCircumference function here:
+function orbitCircumference(arr) {
 
+  let cirOrbit = 2* Math.PI * 
+}
 
 // Code your missionDuration function here:
 
